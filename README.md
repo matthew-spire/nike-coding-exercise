@@ -1,0 +1,11 @@
+- Ensure you have Python 3.6 or greater installed
+- The following packages are used and will need to be imported:
+  - Glob
+  - JSON
+  - OS
+  - Pandas
+  - Numpy
+ - In a terminal run `python main.py`
+   - You will be prompted for a user id
+   - The output (as of this writing) is a JSON string of the number of weeks over 10km
+ - Additional improvements are in progress

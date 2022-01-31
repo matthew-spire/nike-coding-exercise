@@ -7,5 +7,8 @@
   - Numpy
  - In a terminal run `python main.py`
    - You will be prompted for a user id
-   - The output (as of this writing) is a JSON string of the number of weeks over 10km
+   - The output is JSON of:
+     - The number of times the user ran > 1km in a single run three days in a row
+     - The number of times the user ran > 10km in a calendar week (Monday through Sunday)
+     - The overall elevation change for all runs
  - Additional improvements are in progress
